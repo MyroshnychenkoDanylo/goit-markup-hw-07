@@ -1,0 +1,19 @@
+%site-nav-info {
+  list-style: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+%increase {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%icon-fill-mr {
+  fill: currentColor;
+  margin-right: 10px;
+}

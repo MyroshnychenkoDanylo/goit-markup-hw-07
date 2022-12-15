@@ -1,0 +1,56 @@
+.button-portfolio {
+  background-color: var(--button-bgcolor);
+  color: var(--color-button);
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: transparent;
+}
+
+.button-portfolioadd {
+  background-color: var(--button-add-bgcolor);
+  color: var(--button-add-color);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-portfolioadd:hover,
+.button-portfolioadd:focus {
+  color: var(--color-button);
+  background-color: var(--button-bgcolor);
+}
+.container .buttons {
+  margin-bottom: 50px;
+}
+
+.section.hero-portfolio .list.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.section.hero-portfolio .list.buttons .itembtn:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio .itembtn {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio .itembtn:hover,
+.portfolio .itembtn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}

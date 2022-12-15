@@ -1,0 +1,35 @@
+.link-image {
+  display: block;
+}
+
+.list.wwd {
+  display: flex;
+  align-items: center;
+}
+
+.list.wwd .item {
+  position: relative;
+}
+
+.list.wwd .show-wwd {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: var(--bgc-text-show);
+}
+
+.list.wwd .show-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secendory-text-color);
+}
+
+.list.wwd .item:not(:last-child) {
+  margin-right: 30px;
+}
