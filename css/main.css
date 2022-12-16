@@ -1003,7 +1003,7 @@ input {
   padding-top: 60px;
 }
 
-.footer-info.container {
+.container--footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1012,13 +1012,13 @@ input {
           align-items: baseline;
 }
 
-.address-footer__firtspart-logo {
+.address-container__firtspart-logo {
   display: inline-block;
   color: var(--firspart-logo-footer);
   margin-bottom: 28px;
 }
 
-.address-footer__secondpart-logo {
+.address-container__secondpart-logo {
   color: var(--secondpart-logo-footer);
 }
 
@@ -1336,7 +1336,7 @@ input {
   margin-right: 10px;
 }
 
-.nav__firtspart-logo, .nav__secondpart-logo, .address-footer__firtspart-logo, .address-footer__secondpart-logo {
+.nav__firtspart-logo, .nav__secondpart-logo, .address-container__firtspart-logo, .address-container__secondpart-logo {
   font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
