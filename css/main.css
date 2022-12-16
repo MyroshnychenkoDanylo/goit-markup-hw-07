@@ -151,18 +151,10 @@ input {
   padding-top: 24px;
   padding-bottom: 25px;
   color: var(--add-color);
-  font-family: Raleway, cursive;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .nav__secondpart-logo {
   color: var(--secondpart-logo-header);
-  font-family: Raleway, cursive;
-  letter-spacing: 0.03em;
 }
 
 .nav {
@@ -855,11 +847,6 @@ input {
   margin-right: 10px;
 }
 
-.link-social-network {
-  width: 44px;
-  height: 44px;
-}
-
 .social-network {
   width: 100%;
   height: 100%;
@@ -1016,64 +1003,6 @@ input {
   padding-top: 60px;
 }
 
-.footer .footer-firspart-logo {
-  display: inline-block;
-  color: var(--firspart-logo-footer);
-  font-family: Raleway, cursive;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  padding-bottom: 0;
-  margin-bottom: 28px;
-  text-decoration: none;
-}
-
-.footer .footer-secondpart-logo {
-  color: var(--secondpart-logo-footer);
-  font-family: Raleway, cursive;
-}
-
-.container-address {
-  width: 231px;
-}
-
-.footer .list-email,
-.footer .list-tel {
-  color: var(--footer-list-info);
-  text-decoration: none;
-}
-
-.footer .list-address {
-  display: inline-block;
-  color: var(--footer-list-address);
-  margin-bottom: 12px;
-}
-
-.footer .list-email {
-  display: inline-block;
-  margin-bottom: 12px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address .list-email:hover,
-.address .list-email:focus,
-.address .list-tel:hover,
-.address .list-tel:focus {
-  color: var(--add-color);
-}
-
-.footer .address {
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
-  font-style: normal;
-}
-
-.footer-social-networks {
-  margin-left: 70px;
-}
-
 .footer-info.container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1083,7 +1012,58 @@ input {
           align-items: baseline;
 }
 
-.footer-links {
+.address-footer__firtspart-logo {
+  display: inline-block;
+  color: var(--firspart-logo-footer);
+  margin-bottom: 28px;
+}
+
+.address-footer__secondpart-logo {
+  color: var(--secondpart-logo-footer);
+}
+
+.address-footer {
+  width: 231px;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  font-style: normal;
+}
+.address__email, .address__tel {
+  color: var(--footer-list-info);
+  text-decoration: none;
+}
+.address__location {
+  display: inline-block;
+  color: var(--footer-list-address);
+  margin-bottom: 12px;
+}
+.address__email {
+  display: inline-block;
+  margin-bottom: 12px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address__email:hover, .address__email:focus, .address__tel:hover, .address__tel:focus {
+  color: var(--add-color);
+}
+
+.social-networks--footer {
+  margin-left: 70px;
+}
+
+.social-networks__title {
+  color: var(--hero-title-color);
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.social-links {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1093,15 +1073,11 @@ input {
           justify-content: flex-start;
 }
 
-.title-networks-footer {
-  color: var(--hero-title-color);
-  font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.03em;
-  margin-bottom: 20px;
+.social-links__item:not(:last-child) {
+  margin-right: 10px;
 }
 
-.footer-social-network {
+.social-links__svg {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -1120,9 +1096,7 @@ input {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-social-network:hover,
-.footer-social-network:focus {
+.social-links__svg:hover, .social-links__svg:focus {
   background-color: var(--background-social-network-hover);
 }
 
@@ -1360,4 +1334,19 @@ input {
 .site-info__envelop-icon, .site-info__smartphone-icon {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.nav__firtspart-logo, .nav__secondpart-logo, .address-footer__firtspart-logo, .address-footer__secondpart-logo {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  padding-bottom: 0;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.link-social-network, .social-links__item {
+  width: 44px;
+  height: 44px;
 }/*# sourceMappingURL=main.css.map */

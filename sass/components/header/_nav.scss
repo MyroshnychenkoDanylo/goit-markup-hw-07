@@ -2,18 +2,12 @@
   padding-top: 24px;
   padding-bottom: 25px;
   color: var(--add-color);
-  font-family: Raleway, cursive;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @extend %logo;
 }
 
 .nav__secondpart-logo {
   color: var(--secondpart-logo-header);
-  font-family: Raleway, cursive;
-  letter-spacing: 0.03em;
+  @extend %logo;
 }
 
 .nav {

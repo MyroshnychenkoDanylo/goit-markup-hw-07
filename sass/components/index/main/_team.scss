@@ -53,8 +53,7 @@
 }
 
 .link-social-network {
-  width: 44px;
-  height: 44px;
+  @extend %link-social-network;
 }
 
 .social-network {
