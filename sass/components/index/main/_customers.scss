@@ -1,86 +1,67 @@
-.section.regular-customers {
+.regular-customers {
   color: var(--tittle-text-color);
   text-align: center;
 }
 
-.title-costomers {
+.regular-customers__title {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
-.costomers-all {
+.customers {
   display: flex;
   justify-content: start;
-  margin-top: 50px;
-}
-.customers-link {
-  width: 170px;
-}
-.customers-link:not(:last-child) {
-  margin-right: 30px;
-}
 
-.costomers-all .link-union {
-  display: flex;
-  align-items: center;
-  padding: 23px 65px 22px 64px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
+  &--mt {
+    margin-top: 50px;
+  }
 
-.costomers-all .link-tagline {
-  display: flex;
-  align-items: center;
-  padding: 19px 65px 21px 65px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
+  &__link {
+    width: 170px;
+  }
 
-.costomers-all .link-company {
-  display: flex;
-  align-items: center;
-  padding: 25px 65px 26px 62px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
-.costomers-all .link-foster {
-  display: flex;
-  align-items: center;
-  padding: 25px 43px 27px 43px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
+  &__link:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.costomers-all .link-brand {
-  display: flex;
-  align-items: center;
-  padding: 23px 54px 24px 54px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
+  &__union {
+    padding: 23px 65px 22px 64px;
+    @extend %icon-customers;
+  }
 
-.costomers-all .link-tag {
-  display: flex;
-  align-items: center;
-  padding: 23px 38px 25px 38px;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
-  border-radius: 4px;
-}
+  &__tagline {
+    padding: 19px 65px 21px 65px;
+    @extend %icon-customers;
+  }
 
-.costomers-all .customers-hover {
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &__company {
+    padding: 25px 65px 26px 62px;
+    @extend %icon-customers;
+  }
+  &__foster {
+    padding: 25px 43px 27px 43px;
+    @extend %icon-customers;
+  }
 
-.costomers-all .customers-hover:hover,
-.costomers-all .customers-hover:focus {
-  fill: var(--fill-customers-hover);
-  border: 1px solid var(--fill-customers-hover);
-  border-radius: 4px;
+  &__brand {
+    padding: 23px 54px 24px 54px;
+    @extend %icon-customers;
+  }
+
+  &__tag {
+    padding: 23px 38px 25px 38px;
+    @extend %icon-customers;
+  }
+
+  &--hover {
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__icon--hover:hover,
+  &__icon--hover:focus {
+    fill: var(--fill-customers-hover);
+    border: 1px solid var(--fill-customers-hover);
+    border-radius: 4px;
+  }
 }
