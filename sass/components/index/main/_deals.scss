@@ -1,5 +1,19 @@
+.section .section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: none;
+  padding-bottom: 50px;
+}
+
 .link-image {
   display: block;
+}
+.section-title {
+  color: var(--tittle-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .list.wwd {
