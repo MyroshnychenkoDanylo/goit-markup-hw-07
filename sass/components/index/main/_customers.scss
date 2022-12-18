@@ -19,39 +19,18 @@
 
   &__link {
     width: 170px;
+    height: 92px;
   }
 
   &__link:not(:last-child) {
     margin-right: 30px;
   }
 
-  &__union {
-    padding: 23px 65px 22px 64px;
-    @extend %icon-customers;
-  }
-
-  &__tagline {
-    padding: 19px 65px 21px 65px;
-    @extend %icon-customers;
-  }
-
   &__company {
-    padding: 25px 65px 26px 62px;
     @extend %icon-customers;
-  }
-  &__foster {
-    padding: 25px 43px 27px 43px;
-    @extend %icon-customers;
-  }
-
-  &__brand {
-    padding: 23px 54px 24px 54px;
-    @extend %icon-customers;
-  }
-
-  &__tag {
-    padding: 23px 38px 25px 38px;
-    @extend %icon-customers;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 
   &--hover {

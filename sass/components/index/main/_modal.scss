@@ -41,6 +41,10 @@
     border-radius: 50%;
     fill: $fiil-icon-close;
   }
+  &__icon:hover,
+  &__icon:focus {
+    fill: $link-modal-color;
+  }
 }
 
 .modal-form {
