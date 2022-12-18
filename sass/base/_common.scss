@@ -53,9 +53,9 @@ input {
   list-style: none;
 }
 .page {
-  background-color: var(--main-bgcolor);
+  background-color: $main-bgcolor;
   font-family: Roboto, sans-serif;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin: 0;
 }
 
@@ -65,13 +65,13 @@ input {
 
 .button:hover,
 .button:focus {
-  background-color: var(--button-active-bgcolor);
+  background-color: $button-active-bgcolor;
 }
 
 .button {
   display: inline-block;
-  background-color: var(--button-bgcolor);
-  color: var(--color-button);
+  background-color: $button-bgcolor;
+  color: $color-button;
   letter-spacing: 0.06em;
   font-family: Roboto, sans-serif;
   font-weight: 700;

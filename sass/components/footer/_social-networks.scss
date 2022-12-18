@@ -3,7 +3,7 @@
 }
 
 .social-networks__title {
-  color: var(--hero-title-color);
+  color: $hero-title-color;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -31,13 +31,13 @@
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  fill: var(--fill-social-network-footer);
+  fill: $fill-social-network-footer;
   padding: 12px;
-  background-color: var(--background-social-network-footer);
+  background-color: $background-social-network-footer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: var(--background-social-network-hover);
+    background-color: $background-social-network-hover;
   }
 }

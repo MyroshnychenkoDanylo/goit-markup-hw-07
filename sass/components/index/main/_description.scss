@@ -14,7 +14,7 @@
   }
 
   &__sub-title {
-    color: var(--tittle-text-color);
+    color: $tittle-text-color;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -36,7 +36,7 @@
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-color: var(--block-feature);
+  background-color: $block-feature;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;

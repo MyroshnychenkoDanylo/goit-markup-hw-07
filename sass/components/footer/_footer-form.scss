@@ -8,7 +8,7 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-form-footer-color);
+  color: $title-form-footer-color;
 }
 
 .form-email {
@@ -25,7 +25,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
-  color: var(--input-email-footer);
+  color: $input-email-footer;
 }
 
 .form-btn {

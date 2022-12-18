@@ -9,13 +9,13 @@
   font-style: normal;
   &__email,
   &__tel {
-    color: var(--footer-list-info);
+    color: $footer-list-info;
     text-decoration: none;
   }
 
   &__location {
     display: inline-block;
-    color: var(--footer-list-address);
+    color: $footer-list-address;
     margin-bottom: 12px;
   }
 
@@ -29,6 +29,6 @@
   &__email:focus,
   &__tel:hover,
   &__tel:focus {
-    color: var(--add-color);
+    color: $add-color;
   }
 }

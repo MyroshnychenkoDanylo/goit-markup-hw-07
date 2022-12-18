@@ -1,12 +1,12 @@
 .team {
-  background-color: var(--last-section-bgcolor);
+  background-color: $last-section-bgcolor;
   letter-spacing: 0.03em;
 
   &__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--tittle-text-color);
+    color: $tittle-text-color;
   }
 }
 
@@ -17,7 +17,7 @@
 }
 
 .card {
-  background-color: var(--main-bgcolor);
+  background-color: $main-bgcolor;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@
     text-transform: none;
     margin-top: 30px;
     text-align: center;
-    color: var(--tittle-text-color);
+    color: $tittle-text-color;
   }
 
   &__text {
@@ -70,14 +70,14 @@
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  fill: var(--fill-social-network);
+  fill: $fill-social-network;
   padding: 12px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    fill: var(--fill-social-network-hover);
-    background-color: var(--background-social-network-hover);
+    fill: $fill-social-network-hover;
+    background-color: $background-social-network-hover;
   }
 }

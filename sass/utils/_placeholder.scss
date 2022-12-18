@@ -36,8 +36,8 @@
 %icon-customers {
   display: flex;
   align-items: center;
-  fill: var(--fill-customers);
-  border: 1px solid var(--border-customers);
+  fill: $fill-customers;
+  border: 1px solid $border-customers;
   border-radius: 4px;
 }
 
