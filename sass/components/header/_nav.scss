@@ -3,8 +3,6 @@
   align-items: center;
 
   &__firtspart-logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
     color: $add-color;
     @extend %logo;
   }
@@ -13,6 +11,11 @@
     color: $secondpart-logo-header;
     @extend %logo;
   }
+}
+
+.logo-container {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .site-nav {
